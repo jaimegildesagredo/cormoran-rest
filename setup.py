@@ -16,6 +16,10 @@ setup(
     download_url='https://github.com/jaimegildesagredo/cormoran-rest/downloads',
     packages=find_packages(exclude=['tests', 'tests.*']),
     test_suite='tests',
+    install_requires= [
+        'cormoran',
+        'tornado'
+    ],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
