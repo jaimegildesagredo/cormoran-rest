@@ -2,8 +2,7 @@
 
 import httplib
 
-from tornado import web
-from tornado import escape
+from tornado import web, escape
 
 
 class RestHandler(web.RequestHandler):
